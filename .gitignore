@@ -1,0 +1,60 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Build outputs
+dist/
+build/
+.output/
+.wrangler/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Cache and temporary files
+.cache/
+.vite/
+coverage/
+*.log
+tmp/
+temp/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+
+# Nested project caches and generated files
+**/.tanstack/
+**/.lovable/
+**/.wrangler/
+**/.output/
+**/dist/
+**/build/
+**/.vite/
+**/.cache/
+**/coverage/
+
+
+**/.git-preserved/

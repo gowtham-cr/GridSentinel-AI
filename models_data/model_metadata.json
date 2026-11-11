@@ -1,0 +1,26 @@
+{
+  "model_type": "IsolationForest+RandomForest",
+  "trained_at": "2026-11-05T07:32:52.025046+00:00",
+  "num_training_samples": 177,
+  "num_test_samples": 60,
+  "accuracy": 1.0,
+  "f1_score": 1.0,
+  "features_used": [
+    "vm_mean",
+    "vm_std",
+    "vm_max_dev",
+    "va_range",
+    "total_p_gen",
+    "total_p_load",
+    "total_losses",
+    "power_imbalance_residual",
+    "max_line_loading",
+    "mean_line_loading",
+    "bus_voltage_min",
+    "bus_voltage_max",
+    "delta_v_rate",
+    "delta_p_rate",
+    "sensor_variance_score"
+  ],
+  "model_file_path": "C:\\Users\\DELL\\Desktop\\GridSentinel-AI\\models_data\\gridsentinel_ml_pipeline.joblib"
+}
